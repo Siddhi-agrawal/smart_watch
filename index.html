@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SmartWatch Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body onload="timer()">
+    <header>
+        Smart Watch
+    </header>
+    <section id="all">
+        <div id="variation">
+            <img id="myImage" src="images\4x\black1@4x.png" alt="">
+            <p id="time"></p>
+            <img id="heart" src="images\heart.png" alt="">
+            <span id="heart-rate"></span>
+        </div>
+        <div id="info">
+            <h3 class="section">Color Options</h3>
+            <ul class="colors">
+                <li class="black" onclick="black()"></li>
+                <li class="green" onclick="green()"></li>
+                <li class="blue" onclick="blue()"></li>
+                <li class="pink" onclick="pink()"></li>
+                <li class="orange" onclick="orange()"></li>
+                <li class="white" onclick="white()"></li>
+            </ul>
+            <h3 class="section">Mode
+            </h3>
+            <ul class="options">
+                <li><a onclick="timer()">Time</a></li>
+                <li><a onclick="heartbeat()">Heart Rate</a></li>
+            </ul>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
